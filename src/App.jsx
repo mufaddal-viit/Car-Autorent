@@ -26,6 +26,7 @@ export default function App() {
   return (
     <BrowserRouter>
       {/* <h1>Hello</h1> */}
+      <Homepage />
       <FirebaseProvider>
         <AuthProvider>
           <CarProvider>
