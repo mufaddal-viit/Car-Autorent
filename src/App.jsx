@@ -25,7 +25,7 @@ import NewVehicles from "./components/NewVehicles";
 export default function App() {
   return (
     <BrowserRouter>
-      <h1>Hello</h1>
+      {/* <h1>Hello</h1> */}
       <FirebaseProvider>
         <AuthProvider>
           <CarProvider>
